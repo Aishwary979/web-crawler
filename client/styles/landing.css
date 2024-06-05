@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#crawl-webpage-heading {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#crawl-webpage-instructions {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#crawl-webpage-input {
+  width: 50%;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+}
+
+#crawl-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+#crawl-button:hover {
+  background-color: #0056b3;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#crawl-history-list {
+  padding: 0;
+  width: 50%;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+li:nth-child(odd) {
+  background-color: #fff;
+}
+
+li:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
